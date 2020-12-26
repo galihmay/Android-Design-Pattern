@@ -8,7 +8,8 @@ Jurusan : Sistem Informasi (18SI02) <br/>
 
 <b>Change Log   </b>
   1. Versi 1.0 (Tugas #7)
-     - Awal uploud  <br/>
+     - Awal uploud 
+     <br/>
   2. Versi 1.1 (Tugas #8)
      - Fix error force close pas buka aplikasi 
      - Add Fitur baru Bottom Navigation bar
