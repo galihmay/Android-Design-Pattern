@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object RetrofitApi {
-    const val NEWS_URL =  "https://www.news.developeridn.com/teknologi/"
+    const val NEWS_URL =  "https://newsapi.org/v2/top-headlines?country=id&category=technology&apiKey=93c7682f90c5442789057ef4deca709f/"
 
     private val client = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply {

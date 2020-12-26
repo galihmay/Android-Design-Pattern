@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide
 class NewsAdapter(val context: Context) : BaseAdapter<News>(R.layout.item_news) {
     override fun onBind(binding: ViewDataBinding?, data: News) {
        val mBinding = binding as ItemNewsBinding
-        Glide.with(context).load(data.poster).into(mBinding.itemPoster)
+        Glide.with(context).load(data.urlToImage).into(mBinding.itemurlToImage)
     }
 
     override fun onClick(binding: ViewDataBinding?, data: News) {
