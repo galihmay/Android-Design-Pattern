@@ -13,4 +13,4 @@ Jurusan : Sistem Informasi (18SI02) <br/>
   2. Versi 1.1 (Tugas #8)
      - Fix error force close pas buka aplikasi 
      - Add Fitur baru Bottom Navigation bar
-     - Add Fitur baru daftar berita
+     - Add RetrofitApi News
